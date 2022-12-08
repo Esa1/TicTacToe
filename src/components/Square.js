@@ -1,5 +1,9 @@
 import React from 'react';
 
-const Board = () => <div>Board</div>
+const Square = ({ value, onClick }) => (
+    <button onClick={onClick}>
+        {value}
+    </button>
+);
 
-export default Board;
+export default Square;
